@@ -19,8 +19,9 @@ The following code is preparing the 'date' column of the dataframe. It does this
 Next, we rename the 'Unnamed: 0' column in the original dataset to 'rating_id' using the pandas rename method. Finally, it formats the 'date' column to a specific date format 'MM/DD/YYYY.’ This standardizes the date format of the 'date' column and makes it easier to analyze or visualize.
 
 #### Here is the data after initial cleaning:
-
-<img width="626" alt="data after initial cleaning" src="https://github.com/erichkw528/Drug-Review-Analysis/assets/97138813/fa86e2f5-aa40-41f7-b8b1-7e3a51f95480">
+<p align="center">
+  <img width="626" alt="data after initial cleaning" src="https://github.com/erichkw528/Drug-Review-Analysis/assets/97138813/fa86e2f5-aa40-41f7-b8b1-7e3a51f95480">
+</p>
 
 ## Visualizations + ML Models
 
