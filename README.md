@@ -1,4 +1,5 @@
 # Drug-Review-Analysis
+
 ## Initial Goals
 Our approach employs both supervised (logistic regression) and unsupervised models(k-means clustering) to determine correlations between various attributes of the Drug review dataset. Our main goal is to accurately predict how a drug would be rated based on a given review. Furthermore, we aim to discover patterns and trends in the data that can effectively guide decision-making in future drug recommendations.
 
@@ -12,7 +13,8 @@ First, we clean up the text reviews by removing unnecessary words(like in/or/tha
 ## Dataset 
 Our dataset consists of over 309,000 drug reviews retrieved from the UCI Machine Learning repository. The dataset provides patient reviews on drugs paired with related conditions and a rating system to reflect patient satisfaction. The 6 attributes in this dataset are drugName (name of the drug), condition (name of condition), review (patient text review), rating (a scale from 1-10), date (the date the review was entered), and usefulCount (number of patients that found the review useful). We utilized drugName, review, usefulCount, rating, and condition to perform our tasks. The date column was only used for our time-series.
 
-Link: [https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29#](https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com) 
+Link: [https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com](https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com)  
+
 Citation: Kallumadi,Surya and Grer,Felix. (2018). Drug Review Dataset (Drugs.com). UCI Machine Learning Repository. https://doi.org/10.24432/C5SK5S.
 
 ## Data Cleaning
@@ -187,19 +189,16 @@ For clustering, the data was first prepared by applying standard scalar and one-
 
 ## Further Documentation / Notes: 
 
-Cleaning reviews cell block took ~293 seconds or approx 5 minutes
-Building, training and testing the logistic regression model took ~ 25 seconds.
-K-means clustering took 9.027156829833984 seconds to execute.
-Agglomerative clustering took 7.622380971908569 seconds to execute.
+- Cleaning reviews cell block took ~293 seconds or approx 5 minutes
+- Building, training and testing the logistic regression model took ~ 25 seconds.
+- K-means clustering took 9.027156829833984 seconds to execute.
+- Agglomerative clustering took 7.622380971908569 seconds to execute.
 
-
-Important links:
-
-Team Folder link:
-https://drive.google.com/drive/folders/1EzTl0Yn4IoVjNW6LDB0Np-bZLDFW9fin?usp=share_link
+---
+### Important links:
 
 Presentation link:
-https://docs.google.com/presentation/d/1o0Se_obr13M2ERc1CWwjdO8RpJLACl6iVfo2DkKfcjE/edit?usp=sharing
+[https://docs.google.com/presentation/d/e/2PACX-1vTFK-tMt5cfXIPSH0XD0YH7n1PtpwFPBrEF79Hnktv5JZw4J5mqrk7GUNWyX7LmwX7xU8ZArwatRWzF/pub?start=false&loop=false&delayms=3000](https://docs.google.com/presentation/d/e/2PACX-1vTFK-tMt5cfXIPSH0XD0YH7n1PtpwFPBrEF79Hnktv5JZw4J5mqrk7GUNWyX7LmwX7xU8ZArwatRWzF/pub?start=false&loop=false&delayms=3000)
 
 Video link:
-https://drive.google.com/file/d/1Vo18M2NdTGfYT0WkgPntXWp9MP5ol2Hs/view?usp=share_link
+[https://drive.google.com/file/d/1Vo18M2NdTGfYT0WkgPntXWp9MP5ol2Hs/view?usp=share_link](https://drive.google.com/file/d/1Vo18M2NdTGfYT0WkgPntXWp9MP5ol2Hs/view?usp=share_link)
