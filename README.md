@@ -12,7 +12,8 @@ First, we clean up the text reviews by removing unnecessary words(like in/or/tha
 ## Dataset 
 Our dataset consists of over 309,000 drug reviews retrieved from the UCI Machine Learning repository. The dataset provides patient reviews on drugs paired with related conditions and a rating system to reflect patient satisfaction. The 6 attributes in this dataset are drugName (name of the drug), condition (name of condition), review (patient text review), rating (a scale from 1-10), date (the date the review was entered), and usefulCount (number of patients that found the review useful). We utilized drugName, review, usefulCount, rating, and condition to perform our tasks. The date column was only used for our time-series.
 
-Link: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29# 
+Link: [https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29#](https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com) 
+Citation: Kallumadi,Surya and Grer,Felix. (2018). Drug Review Dataset (Drugs.com). UCI Machine Learning Repository. https://doi.org/10.24432/C5SK5S.
 
 ## Data Cleaning
 The following code is preparing the 'date' column of the dataframe. It does this by first importing the datetime module that helps manipulate date and time data. It then converts the 'date' column of the DataFrame from a string format(May 17, 2009) to a datetime format(05/17/2009) using pandas.to_datetime.
