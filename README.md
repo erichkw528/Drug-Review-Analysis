@@ -201,4 +201,4 @@ Presentation link:
 [https://docs.google.com/presentation/d/e/2PACX-1vTFK-tMt5cfXIPSH0XD0YH7n1PtpwFPBrEF79Hnktv5JZw4J5mqrk7GUNWyX7LmwX7xU8ZArwatRWzF/pub?start=false&loop=false&delayms=3000](https://docs.google.com/presentation/d/e/2PACX-1vTFK-tMt5cfXIPSH0XD0YH7n1PtpwFPBrEF79Hnktv5JZw4J5mqrk7GUNWyX7LmwX7xU8ZArwatRWzF/pub?start=false&loop=false&delayms=3000)
 
 Video link:
-[https://drive.google.com/file/d/1Vo18M2NdTGfYT0WkgPntXWp9MP5ol2Hs/view?usp=share_link](https://drive.google.com/file/d/1Vo18M2NdTGfYT0WkgPntXWp9MP5ol2Hs/view?usp=share_link)
+[https://youtu.be/66zmmcP0w3g](https://youtu.be/66zmmcP0w3g)
